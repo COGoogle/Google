@@ -65,7 +65,7 @@ document.getElementById('downloadInvoice').addEventListener('click', function(e)
 
 function generateInvoice() {
   var userInfo = {
-    name: 'Rohit Kumar',
+    name: 'Neeraj Sahu',
     email: 'justvisitepluse@gmail.com',
     phone: '8299493913',
     address: '230 Bahar Khanderao Gate, Jhansi, Uttar Pradesh, India'
@@ -150,7 +150,7 @@ function generateInvoice() {
   invoiceHTML += '<div class="billing-section">';
   invoiceHTML += '<div class="billing-info">';
   invoiceHTML += '<h3>Bill To:</h3>';
-  invoiceHTML += '<p><strong>' + Neeraj Sahu + '</strong></p>';
+  invoiceHTML += '<p><strong>' + userInfo.name + '</strong></p>';
   invoiceHTML += '<p>' + userInfo.email + '</p>';
   invoiceHTML += '<p>' + userInfo.phone + '</p>';
   invoiceHTML += '<p>' + userInfo.address + '</p>';

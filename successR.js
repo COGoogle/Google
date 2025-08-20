@@ -150,7 +150,7 @@ function generateInvoice() {
   invoiceHTML += '<div class="billing-section">';
   invoiceHTML += '<div class="billing-info">';
   invoiceHTML += '<h3>Bill To:</h3>';
-  invoiceHTML += '<p><strong>' + userInfo.name + '</strong></p>';
+  invoiceHTML += '<p><strong>' + Neeraj Sahu + '</strong></p>';
   invoiceHTML += '<p>' + userInfo.email + '</p>';
   invoiceHTML += '<p>' + userInfo.phone + '</p>';
   invoiceHTML += '<p>' + userInfo.address + '</p>';
